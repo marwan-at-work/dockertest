@@ -12,8 +12,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/ory/dockertest/docker/pkg/system"
 	"github.com/opencontainers/runc/libcontainer/user"
+	"github.com/ory/dockertest/v3/docker/pkg/system"
 )
 
 var (

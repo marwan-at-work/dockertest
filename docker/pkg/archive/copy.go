@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ory/dockertest/docker/pkg/system"
+	"github.com/ory/dockertest/v3/docker/pkg/system"
 	"github.com/sirupsen/logrus"
 )
 

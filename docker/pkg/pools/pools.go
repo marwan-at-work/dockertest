@@ -14,7 +14,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ory/dockertest/docker/pkg/ioutils"
+	"github.com/ory/dockertest/v3/docker/pkg/ioutils"
 )
 
 const buffer32K = 32 * 1024

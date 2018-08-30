@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ory/dockertest/docker/types/versions"
+	"github.com/ory/dockertest/v3/docker/types/versions"
 )
 
 // Args stores a mapping of keys to a set of multiple values.

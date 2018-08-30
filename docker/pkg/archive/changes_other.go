@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ory/dockertest/docker/pkg/system"
+	"github.com/ory/dockertest/v3/docker/pkg/system"
 )
 
 func collectFileInfoForChanges(oldDir, newDir string) (*FileInfo, *FileInfo, error) {

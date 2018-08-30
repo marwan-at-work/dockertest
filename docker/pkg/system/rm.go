@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ory/dockertest/docker/pkg/mount"
+	"github.com/ory/dockertest/v3/docker/pkg/mount"
 	"github.com/pkg/errors"
 )
 

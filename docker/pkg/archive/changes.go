@@ -13,9 +13,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ory/dockertest/docker/pkg/idtools"
-	"github.com/ory/dockertest/docker/pkg/pools"
-	"github.com/ory/dockertest/docker/pkg/system"
+	"github.com/ory/dockertest/v3/docker/pkg/idtools"
+	"github.com/ory/dockertest/v3/docker/pkg/pools"
+	"github.com/ory/dockertest/v3/docker/pkg/system"
 	"github.com/sirupsen/logrus"
 )
 
